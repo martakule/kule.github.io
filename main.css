@@ -13,8 +13,11 @@ Use at the very beginning to set up the basic structure with divs:
 }
 
 body {
-	background-image: url("images/background.jpg");
-	background-attachment: fixed;
+	background: url("images/background.jpg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	font-family: "Work Sans","Trebuchet MS", Helvetica, sans-serif;
 	font-weight: 100;
 }
