@@ -140,6 +140,7 @@ a:visited {
 
   .bgimg-1 {
     background-image: url("images/img1.jpg");
+    padding-top:50%;
   }
 
   .bgimg-2 {
